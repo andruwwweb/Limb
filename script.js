@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    //Main screen animation
-    const orderButton = document.querySelector('.open-form');
-    setInterval(function(){
-        orderButton.classList.add('moving')
-    }, 1000)
-    setInterval(function(){
-        orderButton.classList.remove('moving')
-    }, 2000)
+    //Main screen animation //Не работает для Сафари
+    // const orderButton = document.querySelector('.open-form');
+    // setInterval(function(){
+    //     orderButton.classList.add('moving')
+    // }, 1000)
+    // setInterval(function(){
+    //     orderButton.classList.remove('moving')
+    // }, 2000)
 
 
     //Services screen slider
