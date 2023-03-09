@@ -18,6 +18,9 @@ document.addEventListener('DOMContentLoaded', () => {
         speed: 400,
         spaceBetween: 100,
         allowTouchMove: true,
+        pagination: {
+            el: '.swiper-pagination',
+          },
         breakpoints: {
             1400: {
                 spaceBetween: 100,
